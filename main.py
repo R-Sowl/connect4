@@ -93,7 +93,7 @@ def diag_haut(gril,lig,col):#Ivane OK
   return result
 
 
-'''#les tests
+#les tests
 grilleTest={(i,j):0 for i in range(6) for j in range(7)}
 for i in range(4):
   grilleTest[(0,i+2)]=1
@@ -113,4 +113,4 @@ grilleTest[(4,0)]=2
 affiche(grilleTest)
 
 print(diag_haut(grilleTest,1,3))
-print(diag_haut(grilleTest,0,3))'''
+print(diag_haut(grilleTest,0,3))
